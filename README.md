@@ -16,3 +16,8 @@ git branch -D main # On supprime main en local
 git checkout main # On récupère main du remote
 git merge nombranche --ff-only # Le ff-only permet de bloquer le merge dans le cas où nombranche n'est pas correctement à jour
 git push origin main # On ajoute le code de la branche nombranche
+
+# Fusionner des commits 
+git add .
+git commit -m "nouveau nom"
+git rebase -i HEAD~2
