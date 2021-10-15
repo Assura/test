@@ -20,4 +20,7 @@ git push origin main # On ajoute le code de la branche nombranche
 # Fusionner des commits 
 git add .
 git commit -m "nouveau nom"
-git rebase -i HEAD~2
+git rebase -i HEAD~2.
+
+# Modifier le message d'un commit
+git commit --amend
